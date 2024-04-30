@@ -1,6 +1,6 @@
 ---
 title: "Semi-Stable status of my homelab"
-date: 2024-04-29
+date: 2024-04-29 12:00:00 +200
 categories: [homelab,hardware]
 tags: [servers, ups, nas, synology, asus, intel]
 ---
