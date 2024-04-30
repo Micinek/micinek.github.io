@@ -1,6 +1,6 @@
 ---
 title: "Semi-Stable status of my homelab"
-date: 2024-04-30
+date: 2024-04-29
 categories: [homelab,hardware]
 tags: [servers, ups, nas, synology, asus, intel]
 ---
@@ -50,7 +50,7 @@ Homelab switch - Zyxel XGS1250 ( 8x 1Gbit, 3x 1G/2,5G/5G/10G/, 1x SFP+ 10Gbit )
 
 this PC only turns on on saturday by WOL event in HomeAssistant, few minutes after startup downloads all data from Synology NAS and shuts down again. ( backup script will be avalible on my gitghub )
 
-#####  Synology DS923+
+####  Synology DS923+
  - 4x WD Ultrastar HC550 16TB ( currently only 2 drives pluged in, saving power, drive health, i dont need that much space right now)
  - 2x Kioxia 512GB SSD NVMe ( RW cache drives )
  - Synology E10G22-T1-Mini 10Gbit LAN card 
