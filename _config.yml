@@ -19,7 +19,7 @@ title: Micin's Homelab # the main title
 tagline: A journey through homelab.
 
 description: >- # used by seo meta and the atom feed
-  My journey through self-hosting and hardware in my homelab.
+  My journey through self hosting and hardware in my homelab.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
