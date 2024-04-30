@@ -71,6 +71,6 @@ So i finaly bought a Synology NAS for my 16TB drives. With Intel NUC Skull Canyo
 
 My recent Intel i9-11900 PC server will be (hopefully) enough for some years to come. This CPU was chosen mostly for iGPU and IntelQuickSync capabilities, for my media collection. Also it has enough horsepower for a lot more VMs than older i7-6700hq. Also with the chosen case i have a lot of room to add HDDs, SSDs, and some PCIe cards to play with, for example a Tesla P4 8GB is waiting on the shelf for some AI workload.
 
-![data rack](/assets/img/2024-04-30-my-homelab/IMG_9751.jpeg)
-![data rack](/assets/img/2024-04-30-my-homelab/IMG_9748.jpeg)
-![data rack](/assets/img/2024-04-30-my-homelab/IMG_9750.jpeg)
+![datarack1](/assets/img/2024-04-30-my-homelab/IMG_9751.JPEG)
+![datarack2](/assets/img/2024-04-30-my-homelab/IMG_9748.JPEG)
+![datarack3](/assets/img/2024-04-30-my-homelab/IMG_9750.JPEG)
