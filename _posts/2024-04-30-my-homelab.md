@@ -17,6 +17,9 @@ I needed to hold my power consumption at bay, so i searched for some low power C
 
 Finaly i found some and build my most recent addition to homelab. Intel i9-11900, that will be (hopefully) enough for some years to come. This CPU was chosen mostly for iGPU and IntelQuickSync. Also it has enough horsepower for a lot more VMs than the older NUC i7-6700hq. Also with the chosen case i have room to add more HDDs, SSDs, and even some PCIe cards to play with.
 
+# My current status of homelab:
+- It's a homelab, I’m always working on this. But this current state, until i move it to my garden house ( i need to build it first...)
+
 ### Networking recap:
 Router/Firewall - Mikrotik RB5009Up ( 8port 1Gbit POE, 1x SFP+ 10Gbit )
  - 3x Unifi Protect cameras
@@ -66,9 +69,6 @@ this PC only turns on on saturday by WOL event in HomeAssistant, few minutes aft
 #### APC Smart UPS C1000
  - power supply backup for whole rack
  - connected to Dell Wyse, serving NUT (Network UPS Tools) to other servers
-
-# My Homelab:
-- It's a homelab, i’m always working on this. But this is it's current looks, until i move it to my garden house ( i need to build it first...)
 
 ![data rack1]({{ BASE_PATH }}/assets/img/2024-04-30-my-homelab/IMG_9751.JPEG)
 ![data rack2]({{ BASE_PATH }}/assets/img/2024-04-30-my-homelab/IMG_9748.JPEG)
