@@ -1,11 +1,10 @@
 ---
-title: "Semi-Stable status of my homelab"
+title: "My journey through hardware"
 date: 2024-04-29 12:00:00 +200
 categories: [homelab,hardware]
 tags: [servers, ups, nas, synology, asus, intel]
 ---
 
-### My journey through hardware
 I went through a few older enterprise servers, lot of CPUs, motherboards and a LOT of diferent drives (sata, sas, hdd, ssd, nvme).
 
 Started experimenting with older Supermicro servers from Xeon v1 or v2 family.Soon realized that those CPUs were power hungry and i had to cut down my power usage.
@@ -69,7 +68,7 @@ this PC only turns on on saturday by WOL event in HomeAssistant, few minutes aft
  - connected to Dell Wyse, serving NUT (Network UPS Tools) to other servers
 
 # My Homelab:
-- It's a homelab, i’m always working on this...
+- It's a homelab, i’m always working on this. But this is it's current looks, until i move it to my garden house ( i need to build it first...)
 
 ![data rack1]({{ BASE_PATH }}/assets/img/2024-04-30-my-homelab/IMG_9751.JPEG)
 ![data rack2]({{ BASE_PATH }}/assets/img/2024-04-30-my-homelab/IMG_9748.JPEG)
