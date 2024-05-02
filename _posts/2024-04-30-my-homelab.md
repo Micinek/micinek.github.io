@@ -5,15 +5,24 @@ categories: [homelab,hardware]
 tags: [servers, ups, nas, synology, asus, intel]
 ---
 
-# My Homelab:
-- 🔭 I’m ALWAYS working on this... It's a homelab, what did you expect?
+### My journey through hardware
+I went through a few older enterprise servers, lot of CPUs, motherboards and a LOT of diferent drives (sata, sas, hdd, ssd, nvme).
 
+Started experimenting with older Supermicro servers from Xeon v1 or v2 family.Soon realized that those CPUs were power hungry and i had to cut down my power usage.
+Soon some Supermicro v3 and v4 came along and i found my soft spot for performance per watt with some lower TDP units. Unfortunately, the 4U chassis that i had, were not ideal for power savings ( dual PSU and high RPM fans ).
+I Also built AMD EPYC server at the end of 2023 that was going to be a diamond in my homelab, but the energy prices are currently too high to run that server 24/7. Mabye later...
 
-### Hardware recap:
+So i bought a Synology NAS for 16TB drives i already had. With Intel NUC Skull Canyon as computing power, that was enough to run my most needed services for about year or so, than i started to hit limits of that small computer, lot of testing for work, moving VMs, etc.
+
+I needed to hold my power consumption at bay, so i searched for some low power CPU from one of the last generations, idealy to have QuickSync.
+
+Finaly i found some and build my most recent addition to homelab. Intel i9-11900, that will be (hopefully) enough for some years to come. This CPU was chosen mostly for iGPU and IntelQuickSync. Also it has enough horsepower for a lot more VMs than the older NUC i7-6700hq. Also with the chosen case i have room to add more HDDs, SSDs, and even some PCIe cards to play with.
+
+### Networking recap:
 Router/Firewall - Mikrotik RB5009Up ( 8port 1Gbit POE, 1x SFP+ 10Gbit )
  - 3x Unifi Protect cameras
  - Unifi CloudKey Gen2Plus
- - Loxone MiniServer ( smart home )
+ - 2x Unifi enterprise 6E APs
 House Main Switch - USW-Enterprise-8-PoE  ( 8x 2,5Gbit, 2x SFP+ 10Gbit )
  - 2x Unifi Wifi6
 Homelab switch - Zyxel XGS1250 ( 8x 1Gbit, 3x 1G/2,5G/5G/10G/, 1x SFP+ 10Gbit )
@@ -48,7 +57,7 @@ Homelab switch - Zyxel XGS1250 ( 8x 1Gbit, 3x 1G/2,5G/5G/10G/, 1x SFP+ 10Gbit )
  - 4x 3TB SATA HDD (ZFS raidz1)
  - 2,5Gbit LAN Broadcom PCIe card
 
-this PC only turns on on saturday by WOL event in HomeAssistant, few minutes after startup downloads all data from Synology NAS and shuts down again. ( backup script will be avalible on my gitghub )
+this PC only turns on on saturday by WOL event in HomeAssistant, few minutes after startup, RSYNCs all data from Synology NAS and shuts down again. ( backup script and explanation will be in one of the upcoming blog posts )
 
 ####  Synology DS923+
  - 4x WD Ultrastar HC550 16TB ( currently only 2 drives pluged in, saving power, drive health, i dont need that much space right now)
@@ -59,17 +68,8 @@ this PC only turns on on saturday by WOL event in HomeAssistant, few minutes aft
  - power supply backup for whole rack
  - connected to Dell Wyse, serving NUT (Network UPS Tools) to other servers
 
-
-### My journey of homelabing
-I went through a few enterprise server chassis, few CPUs, motherboards and a lot of drives.
-
-Mostly older Supermicro servers from Xeon v1 or v2 series, started experimenting with those, soon realized that those CPUs were power hungry and not a lot performant.
-Soon some Supermicro v3 and v4 came along and i found my soft spot for performance per watt. Unfortunately, the 4U cases that i had were not ideal for power savings ( duh ... ).
-I Also built AMD EPYC server that was going to be a diamond in my homelab, but the energy prices are currently too high to run that server 24/7. Mabye later...
-
-So i finaly bought a Synology NAS for my 16TB drives. With Intel NUC Skull Canyon as computing power, that was enough for about year or so, than i started to hit limits of that small computer, lot of testing for work, lot of moving VMs, etc.
-
-My recent Intel i9-11900 PC server will be (hopefully) enough for some years to come. This CPU was chosen mostly for iGPU and IntelQuickSync capabilities, for my media collection. Also it has enough horsepower for a lot more VMs than older i7-6700hq. Also with the chosen case i have a lot of room to add HDDs, SSDs, and some PCIe cards to play with, for example a Tesla P4 8GB is waiting on the shelf for some AI workload.
+# My Homelab:
+- It's a homelab, i’m always working on this...
 
 ![data rack1]({{ BASE_PATH }}/assets/img/2024-04-30-my-homelab/IMG_9751.JPEG)
 ![data rack2]({{ BASE_PATH }}/assets/img/2024-04-30-my-homelab/IMG_9748.JPEG)
