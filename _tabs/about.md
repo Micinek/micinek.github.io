@@ -4,8 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-# About me
-
 My name is Jan Kocourek, i live in Czech Republic and work as system administrator for small company that services IT infrastructure for it's customers.
 
 I had started there in 2012 right after graduating ( at trade school) as 1st level support, i always liked computers, but until then, i realy focused on games, building computers and mabye hosting some small game servers and voice servers, etc.
