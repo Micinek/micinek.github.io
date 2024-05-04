@@ -9,7 +9,7 @@ tags: [servers, ups, nas, proxmox, cluster,virtualisation, docker, linux]
 My first servers were mostly Debian Linux and QEMU / KVM controlled in CLI. Later i started to use Proxmox to have a nice GUI that i don't have tinker with all the time and focus on the virtual machines part. Lots of installations, lots of errors have been made, repairing or even recreating my hypervisor was on monthly basis when i was learning how it all works. I got some tutorials from work, and than i had to study on my own, learning Linux, LVM, ZFS than clustering, replicating storage, high avability, etc.
 
 
-My current homelab consists of 3 node Proxmox Cluster and a Synology NAS, as covered [HERE](https://micinek.github.io/posts/my-homelab/) in my hardware post. Cluster is running on my home LAN subnet, it also has separate network in public VLAN that is routed on separate public IP that I can use for publishing some services to the internet if needed, even tho i run all my software through Tailscale.
+My current homelab consists of 3 node Proxmox Cluster and a Synology NAS, as covered [HERE](https://micinek.github.io/posts/my-hardware/) in my hardware post. Cluster is running on my home LAN subnet, it also has separate network in public VLAN that is routed on separate public IP that I can use for publishing some services to the internet if needed, even tho i run all my software through Tailscale.
 
 
 ### What are my main services or VMs running?
