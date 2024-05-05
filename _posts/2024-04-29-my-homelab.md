@@ -3,6 +3,7 @@ title: "My journey through homelab"
 date: 2024-04-28 12:00:00 +200
 categories: [homelab]
 tags: []
+pin: true
 ---
 
 # How, Why and What?!
