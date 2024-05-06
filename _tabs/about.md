@@ -15,3 +15,5 @@ I started my homelab on a decomisioned server from 2008 with Xeon E3, which last
 I encountered a lot of people that strugle with starting a homelab or carier as admin. My main goal by creating this blog, is to document the software i use, and hopefully help others to understand it better or start carier in IT.
 
 ### Come, experiece with me: My journey through homelab.
+
+[![Hits](https://hits.sh/micin.cz.svg?view=today-total)](https://hits.sh/micin.cz/)
