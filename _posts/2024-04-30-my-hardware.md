@@ -5,17 +5,16 @@ categories: [homelab,hardware]
 tags: [servers, ups, nas, synology, asus, intel]
 ---
 
-I went through a few older enterprise servers, lot of CPUs, motherboards and a LOT of diferent drives (sata, sas, hdd, ssd, nvme).
+I went through a few older enterprise servers, experimenting with older Supermicro servers from Xeon v1 or v2 family.
 
-Started experimenting with older Supermicro servers from Xeon v1 or v2 family.Soon realized that those CPUs were power hungry and i had to cut down my power usage.
-Soon some Supermicro v3 and v4 came along and i found my soft spot for performance per watt with some lower TDP units. Unfortunately, the 4U chassis that i had, were not ideal for power savings ( dual PSU and high RPM fans ).
-I Also built AMD EPYC server at the end of 2023 that was going to be a diamond in my homelab, but the energy prices are currently too high to run that server 24/7. Mabye later...
+Soon realized that those CPUs were power hungry and i had to cut down my power usage.
+Soon some Supermicro v3 and v4 came along and i found my soft spot for performance per watt with some lower TDP units. Unfortunately, the 4U chassis that i had at the time, was not ideal for power savings ( dual PSU and high RPM fans ).
 
-So i bought a Synology NAS for 16TB drives i already had. With Intel NUC Skull Canyon as computing power, that was enough to run my most needed services for about year or so, than i started to hit limits of that small computer, lot of testing for work, moving VMs, etc.
+So i bought a Synology NAS for the 16TB drives i already had. With Intel NUC Skull Canyon as computing power, that was enough to run my most needed services for about year or so, than i started to hit limits of that small computer, lot of testing for work, moving VMs, etc.
 
-I needed to hold my power consumption at bay, so i searched for some low power CPU from one of the last generations, idealy to have QuickSync.
+I still needed to hold my power consumption on short leash, so i searched for some low power CPUs with decent computing from one of the last Intel generations.
 
-Finaly i found some and build my most recent addition to homelab. Intel i9-11900, that will be (hopefully) enough for some years to come. This CPU was chosen mostly for iGPU and IntelQuickSync. Also it has enough horsepower for a lot more VMs than the older NUC i7-6700hq. Also with the chosen case i have room to add more HDDs, SSDs, and even some PCIe cards to play with.
+Finaly i found Intel i9-11900, that will be (hopefully) enough for some years to come. This CPU was chosen mostly for iGPU with IntelQuickSync. Also it has enough horsepower for a lot more VMs than the older NUC i7-6700hq. Also with the chosen case i have room to add more HDDs, SSDs, and even some PCIe cards to play with.
 
 # My current status of homelab:
 - It's a homelab, I’m always working on this. But this current state, until i move it to my garden house ( i need to build it first...)
