@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web Jana Kocourka</title>
-    <link>https://example.org/cs/</link>
+    <link>https://micinek.github.io/cs/</link>
     <description>Recent content on Web Jana Kocourka</description>
     <generator>Hugo</generator>
     <language>cs-CZ</language>
     <lastBuildDate>Sat, 30 Nov 2024 06:00:00 +0200</lastBuildDate>
-    <atom:link href="https://example.org/cs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://micinek.github.io/cs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yet another blog</title>
-      <link>https://example.org/cs/posts/01-yet-another-blog/</link>
+      <link>https://micinek.github.io/cs/posts/01-yet-another-blog/</link>
       <pubDate>Sat, 30 Nov 2024 06:00:00 +0200</pubDate>
-      <guid>https://example.org/cs/posts/01-yet-another-blog/</guid>
+      <guid>https://micinek.github.io/cs/posts/01-yet-another-blog/</guid>
       <description>&lt;h1 id=&#34;proč-psát-další-technický-blog&#34;&gt;&#xA;  Proč psát další technický blog?!&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#pro%c4%8d-ps%c3%a1t-dal%c5%a1%c3%ad-technick%c3%bd-blog&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Ptám se sám sebe už asi rok, za tu dobu jsem několikrát vytvořil a smazal tenhle blog, protože jsem si myslel, že nemám co říct. Vše bylo řečeno, videa natočeny, návody napsány, problémy vyřešeny.&lt;/p&gt;&#xA;&lt;p&gt;ALE&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Myslím, že každý má jinou zkušenost s instalací softwaru, sestavováním hardwaru a odstraňováním problémů. Jinak příjímáme informace a učíme se.&lt;/p&gt;&#xA;&lt;p&gt;Chci sdílet svou cestu a své vlastní hřiště mimo práci, kde se učím novým věcem a zdokonaluji se ve své práci. Tento blog mi poslouží jako moje vlastní sebereflexe a dokumentace. Také doufám, že pomůže dalším lidem začít jejich cestu a postavit něco na tom základu.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://example.org/cs/about/</link>
+      <link>https://micinek.github.io/cs/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/cs/about/</guid>
+      <guid>https://micinek.github.io/cs/about/</guid>
       <description>&lt;h1 id=&#34;o-mně&#34;&gt;&#xA;  O mně&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#o-mn%c4%9b&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mezi mé hlavní zájmy patří IT technologie a jejich využití v malých a středních podnicích&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mým cílem je pomoci firmám zajišťovat péči o IT infrastrukturu, chránit jejich data a zlepšovat organizaci procesů. V profesionální oblasti IT se pohybuji od roku 2012, kdy jsem začal pracovat ve společnosti CATHEDRAL Software jako technik 1st level support. Spravoval jsem koncové stanice klientů a počítačové sítě. Postupem času jsem rozšířil své znalosti o zabezpečení a údržbu dat, správu serverů, virtualizaci a monitoring.&lt;/p&gt;</description>
     </item>
   </channel>

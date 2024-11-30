@@ -2,79 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/cs/posts/01-yet-another-blog/</loc>
+    <loc>https://micinek.github.io/cs/posts/01-yet-another-blog/</loc>
     <lastmod>2024-11-30T06:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/posts/01-yet-another-blog/"
+                href="https://micinek.github.io/en/posts/01-yet-another-blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://example.org/cs/posts/01-yet-another-blog/"
+                href="https://micinek.github.io/cs/posts/01-yet-another-blog/"
                 />
   </url><url>
-    <loc>https://example.org/cs/posts/</loc>
+    <loc>https://micinek.github.io/cs/posts/</loc>
     <lastmod>2024-11-30T06:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/posts/"
+                href="https://micinek.github.io/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://example.org/cs/posts/"
+                href="https://micinek.github.io/cs/posts/"
                 />
   </url><url>
-    <loc>https://example.org/cs/</loc>
+    <loc>https://micinek.github.io/cs/</loc>
     <lastmod>2024-11-30T06:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/"
+                href="https://micinek.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://example.org/cs/"
+                href="https://micinek.github.io/cs/"
                 />
   </url><url>
-    <loc>https://example.org/cs/about/</loc>
+    <loc>https://micinek.github.io/cs/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/about/"
+                href="https://micinek.github.io/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://example.org/cs/about/"
+                href="https://micinek.github.io/cs/about/"
                 />
   </url><url>
-    <loc>https://example.org/cs/categories/</loc>
+    <loc>https://micinek.github.io/cs/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/categories/"
+                href="https://micinek.github.io/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://example.org/cs/categories/"
+                href="https://micinek.github.io/cs/categories/"
                 />
   </url><url>
-    <loc>https://example.org/cs/tags/</loc>
+    <loc>https://micinek.github.io/cs/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://example.org/en/tags/"
+                href="https://micinek.github.io/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://example.org/cs/tags/"
+                href="https://micinek.github.io/cs/tags/"
                 />
   </url>
 </urlset>
