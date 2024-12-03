@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://micinek.github.io/en/blog/02-what-is-homelab/</loc>
-    <lastmod>2024-12-03T06:00:00+02:00</lastmod>
-  </url><url>
     <loc>https://micinek.github.io/en/blog/01-yet-another-blog/</loc>
     <lastmod>2024-11-30T06:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://micinek.github.io/en/blog/02-what-is-homelab/</loc>
+    <lastmod>2024-12-03T06:00:00+02:00</lastmod>
   </url><url>
     <loc>https://micinek.github.io/en/blog/</loc>
     <lastmod>2024-12-03T06:00:00+02:00</lastmod>
