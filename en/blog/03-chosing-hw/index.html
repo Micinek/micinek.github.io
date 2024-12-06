@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Chosing hardware for homelab · Jan Kocourek`s website
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Jan Kocourek">
+<meta name="description" content="So you want to build a homelab, but where do you even start?
+You should think about the purpose for which you are purchasing a homelab. Hardware requirements will depend on your needs.
+Most people who start with a homelab, want for example space for storing various media, or a way to view them on home devices. Others because they want to test new things for work. Or they want to start working in IT and need a place to learn it all.">
+<meta name="keywords" content="blog,sysadmin,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chosing hardware for homelab">
+  <meta name="twitter:description" content="So you want to build a homelab, but where do you even start?
+You should think about the purpose for which you are purchasing a homelab. Hardware requirements will depend on your needs.
+Most people who start with a homelab, want for example space for storing various media, or a way to view them on home devices. Others because they want to test new things for work. Or they want to start working in IT and need a place to learn it all.">
+
+<meta property="og:url" content="https://micinek.github.io/en/blog/03-chosing-hw/">
+  <meta property="og:site_name" content="Jan Kocourek`s website">
+  <meta property="og:title" content="Chosing hardware for homelab">
+  <meta property="og:description" content="So you want to build a homelab, but where do you even start?
+You should think about the purpose for which you are purchasing a homelab. Hardware requirements will depend on your needs.
+Most people who start with a homelab, want for example space for storing various media, or a way to view them on home devices. Others because they want to test new things for work. Or they want to start working in IT and need a place to learn it all.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2024-12-06T06:00:00+02:00">
+    <meta property="article:modified_time" content="2024-12-06T06:00:00+02:00">
+
+
+
+
+<link rel="canonical" href="https://micinek.github.io/en/blog/03-chosing-hw/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.aa5ef26fa979d6793724ae2dbd71efa94fd16cb1c5c7db3b6651f21f9892a5fd.css" integrity="sha256-ql7yb6l51nk3JK4tvXHvqU/RbLHFx9s7ZlHyH5iSpf0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://micinek.github.io/en/">
+      Jan Kocourek`s website
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/en/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/en/blog/">Blog</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/cs/">Čeština</a>
+              </li>
+            
+          
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://micinek.github.io/en/blog/03-chosing-hw/">
+          Chosing hardware for homelab
+        </a>
+      </h1>
+    </header>
+
+    <p>So you want to build a homelab, but where do you even start?</p>
+<p>You should think about the purpose for which you are purchasing a homelab. Hardware requirements will depend on your needs.</p>
+<p>Most people who start with a homelab, want for example space for storing various media, or a way to view them on home devices. Others because they want to test new things for work. Or they want to start working in IT and need a place to learn it all.</p>
+<h4 id="lets-go-through-a-few-topics-that-will-guide-your-hardware-selection">
+  Let&rsquo;s go through a few topics that will guide your hardware selection.
+  <a class="heading-link" href="#lets-go-through-a-few-topics-that-will-guide-your-hardware-selection">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<hr>
+<h3 id="my-eight-pillars-of-a-useful-home-lab-or-even-business-infrastructure">
+  My eight pillars of a useful home lab (or even business infrastructure)
+  <a class="heading-link" href="#my-eight-pillars-of-a-useful-home-lab-or-even-business-infrastructure">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h3 id="power-consumption">
+  Power Consumption
+  <a class="heading-link" href="#power-consumption">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Main interest in my homelab, is power consumptopn at the moment, I chose components with a focus on low consumption.</li>
+</ul>
+<h3 id="expandability">
+  Expandability
+  <a class="heading-link" href="#expandability">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>do you want a big &ldquo;all-in-one&rdquo; server that can do everything? Will you need a high-quality motherboard on which you can fit all the necessary components? CPUs for regular PCs have a limited number of PCIe lanes. If you want e.g. combine a dedicated graphics card, a RAID card and a faster network card in the server, you will have to choose an adequate platform.</li>
+</ul>
+<h3 id="computing-power">
+  Computing power
+  <a class="heading-link" href="#computing-power">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Do you plan to have several small services or run the entire company software package? Deciding which CPU to use can be tricky. Fewer high frequency cores or more cores? Each choice has its advantages for different cases.</li>
+</ul>
+<h3 id="storage">
+  Storage
+  <a class="heading-link" href="#storage">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Do you need a lot of storage space? Do you want spinning disks for storing regular data or fast SSD / NVMe disks for virtual machines or databases? Storage Type, RAID, Software Defined Storage, Replicated Storage. This is one of many rabbit holes in IT infrastructure.</li>
+</ul>
+<h3 id="formfactor">
+  FormFactor
+  <a class="heading-link" href="#formfactor">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Differences between MiniPC and RACK server in size and capacity of various components. It&rsquo;s basically a fancy way of expressing the size, shape, and other specifications that determine how a component looks and fits into a system.</li>
+</ul>
+<h3 id="cooling">
+  Cooling
+  <a class="heading-link" href="#cooling">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>based on the previous pillars your homelab needs to be adequately cooled, LARGE servers with lots of hard drives or containing GPUs will need to have either: High airflow = noise | cool environment = air conditioning (or cool basement) | Low consumption = less heat generation (may mean lower computing power)</li>
+</ul>
+<h3 id="network-infrastructure">
+  Network infrastructure
+  <a class="heading-link" href="#network-infrastructure">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Are you planning to run a modest homelab with some basic networking, or are you planning to run a video editing server with a 10Gbit network? Maybe a cluster of servers with high speed storage on a 100Gbit network? Networking in general is another one of those rabbit holes you can fall down and never get out of. I use the Mikrotik or Ubiquiti brands, which offer both Routers and Switches as well as wifi that we can use.</li>
+</ul>
+<h3 id="budget">
+  Budget
+  <a class="heading-link" href="#budget">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Okay, let&rsquo;s talk about the real elephant in the room - money! The lifeblood of this digital playground, the fuel that keeps our home labs humming! The initial cost of home lab components is one thing. Today you can buy used servers or components quite cheaply on ebay or other marketplaces. However, keep in mind pillar no. 1 POWER, which can easily increase operating costs by more than $50 dollars per month.</li>
+</ul>
+<hr>
+<h2 id="when-we-talk-about-computer-hardware-the-market-is-usually-divided-into-three-categories-according-to-the-size-and-needs-of-the-target-segment">
+  When we talk about <strong>computer hardware</strong>, the market is usually divided into three categories according to the size and needs of the target segment:
+  <a class="heading-link" href="#when-we-talk-about-computer-hardware-the-market-is-usually-divided-into-three-categories-according-to-the-size-and-needs-of-the-target-segment">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-enterprise-large-companies">
+  1. <strong>Enterprise</strong> (Large companies):
+  <a class="heading-link" href="#1-enterprise-large-companies">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>These are organizations with complex IT infrastructure needs.</li>
+<li>Emphasis is on <strong>scalability, reliability and support</strong>.</li>
+<li>Typically hardware such as <strong>servers, storage systems, network infrastructure and workstations</strong>, designed for heavy workloads and critical operations.</li>
+</ul>
+<h3 id="2-smb-small-and-medium-sized-businesses">
+  2. <strong>SMB (Small and Medium-Sized Businesses)</strong>:
+  <a class="heading-link" href="#2-smb-small-and-medium-sized-businesses">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>This category includes <strong>small and medium companies</strong>.</li>
+<li>Their needs are more <strong>cost-oriented</strong>, with an emphasis on the balance between performance and price.</li>
+<li>Hardware can include mid-range servers, network devices, laptops, desktops, or NAS (Network-Attached Storage) for medium workloads.</li>
+</ul>
+<h3 id="3-soho-small-officehome-office-or-home-users">
+  3. <strong>SOHO (Small Office/Home Office) or home users</strong>:
+  <a class="heading-link" href="#3-soho-small-officehome-office-or-home-users">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>This category includes <strong>individuals</strong> or <strong>very small businesses</strong> such as home offices.</li>
+<li>Focuses on <strong>consumer hardware</strong> that offers basic features at a low price.</li>
+<li>Hardware includes personal laptops, desktops, printers, Wi-Fi routers and external storage.</li>
+</ul>
+<h3 id="key-differences">
+  Key Differences:
+  <a class="heading-link" href="#key-differences">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Enterprise</strong>: High-end solution, robust and designed for large operations.</li>
+<li><strong>SMB</strong>: Middle class, cost effective, focused on growing businesses.</li>
+<li><strong>SOHO/home users</strong>: Basic, consumer oriented, with an emphasis on simplicity and accessibility.</li>
+</ul>
+<hr>
+<h3 id="for-starting-home-labs-we-usually-look-for-used-parts-from-the-soho-and-smb-group-it-is-an-ideal-ratio-between-price-and-performance">
+  For starting home labs, we usually look for used parts, from the SOHO and SMB group. It is an ideal ratio between price and performance.
+  <a class="heading-link" href="#for-starting-home-labs-we-usually-look-for-used-parts-from-the-soho-and-smb-group-it-is-an-ideal-ratio-between-price-and-performance">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Jan Kocourek 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
