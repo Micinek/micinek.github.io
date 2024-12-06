@@ -6,7 +6,7 @@
     <description>Recent content on Web Jana Kocourka</description>
     <generator>Hugo</generator>
     <language>cs-CZ</language>
-    <lastBuildDate>Tue, 03 Dec 2024 06:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 06 Dec 2024 06:00:00 +0200</lastBuildDate>
     <atom:link href="https://micinek.github.io/cs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jen další blog</title>
@@ -21,6 +21,13 @@
       <pubDate>Tue, 03 Dec 2024 06:00:00 +0200</pubDate>
       <guid>https://micinek.github.io/cs/blog/02-co-je-to-homelab/</guid>
       <description>&lt;h1 id=&#34;co-je-to-homelab-a-proč-by-tě-to-mělo-zajímat&#34;&gt;&#xA;  Co je to homelab a proč by tě to mělo zajímat?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#co-je-to-homelab-a-pro%c4%8d-by-t%c4%9b-to-m%c4%9blo-zaj%c3%admat&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Homelab je místo, kde se IT nadšenci i profíci mohou učit a experimentovat aniž by museli riskovat poškození produknčního prostředí. Může to být cokoli od jednoho staršího počítače, na kterém běží pár služeb, až po virtualizační cluster serverů simulujících firemní infrastrukturu.&lt;/p&gt;&#xA;&lt;p&gt;Homelab je jedinečná příležitost, jak si osvojit dovednosti a praktické zkušenosti v IT. A pokud teprve začínáš jako IT správce, homelab ti může otevřít dveře do světa technologií způsobem, který je dostupný, flexibilní a hlavně bezpečný.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Výběr hardwaru pro homelab</title>
+      <link>https://micinek.github.io/cs/blog/03-vyber-hw/</link>
+      <pubDate>Fri, 06 Dec 2024 06:00:00 +0200</pubDate>
+      <guid>https://micinek.github.io/cs/blog/03-vyber-hw/</guid>
+      <description>&lt;p&gt;Takže chceš si postavit homelab, ale kde vůbec začít?&lt;/p&gt;&#xA;&lt;p&gt;Měl by jsi se zamyslet nad tím, za jakým účelem homelab pořizuješ. Od tvých potřeb se budou odvíjet požadavky na hardware.&lt;/p&gt;&#xA;&lt;p&gt;Většina lidí kteří začínají s homelabem, chce např. prostor pro ukládání rúzných médií, nebo způsob jak si je moci prohlížet na domácích zařízeních. Jiní proto, že chtějí testovat nové věci pro práci. Nebo chtějí začít pracovat v IT a potřebují místo, kde se to všechno naučí.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
