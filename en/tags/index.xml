@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jan Kocourek`s website</title>
-    <link>https://www.micinek.cz/en/tags/</link>
+    <link>https://www.micin.cz/en/tags/</link>
     <description>Recent content in Tags on Jan Kocourek`s website</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <atom:link href="https://www.micinek.cz/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.micin.cz/en/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
