@@ -2,75 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://micinek.github.io/cs/blog/01-jen-dalsi-blog/</loc>
+    <loc>http://localhost:1313/cs/posts/01-jen-dalsi-blog/</loc>
     <lastmod>2024-11-30T06:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://micinek.github.io/cs/blog/02-co-je-to-homelab/</loc>
+    <loc>http://localhost:1313/cs/posts/02-co-je-to-homelab/</loc>
     <lastmod>2024-12-03T06:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://micinek.github.io/cs/blog/03-vyber-hw/</loc>
+    <loc>http://localhost:1313/cs/posts/03-vyber-hw/</loc>
     <lastmod>2024-12-06T06:00:00+02:00</lastmod>
   </url><url>
-    <loc>https://micinek.github.io/cs/blog/</loc>
-    <lastmod>2024-12-06T06:00:00+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-US"
-                href="https://micinek.github.io/en/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="cs-CZ"
-                href="https://micinek.github.io/cs/blog/"
-                />
-  </url><url>
-    <loc>https://micinek.github.io/cs/</loc>
+    <loc>http://localhost:1313/cs/posts/</loc>
     <lastmod>2024-12-06T06:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://micinek.github.io/en/"
+                href="http://localhost:1313/en/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://micinek.github.io/cs/"
+                href="http://localhost:1313/cs/posts/"
                 />
   </url><url>
-    <loc>https://micinek.github.io/cs/about/</loc>
+    <loc>http://localhost:1313/cs/</loc>
+    <lastmod>2024-12-06T06:00:00+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://micinek.github.io/en/about/"
+                href="http://localhost:1313/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://micinek.github.io/cs/about/"
+                href="http://localhost:1313/cs/"
                 />
   </url><url>
-    <loc>https://micinek.github.io/cs/categories/</loc>
+    <loc>http://localhost:1313/cs/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://micinek.github.io/en/categories/"
+                href="http://localhost:1313/en/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://micinek.github.io/cs/categories/"
+                href="http://localhost:1313/cs/about/"
                 />
   </url><url>
-    <loc>https://micinek.github.io/cs/tags/</loc>
+    <loc>http://localhost:1313/cs/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://micinek.github.io/en/tags/"
+                href="http://localhost:1313/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="cs-CZ"
-                href="https://micinek.github.io/cs/tags/"
+                href="http://localhost:1313/cs/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/cs/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="http://localhost:1313/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="cs-CZ"
+                href="http://localhost:1313/cs/tags/"
                 />
   </url>
 </urlset>
