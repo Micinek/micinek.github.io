@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>
+  Výběr hardwaru pro homelab · Web Jana Kocourka
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Jan Kocourek">
+<meta name="description" content="Takže chceš si postavit homelab, ale kde vůbec začít?
+Měl by jsi se zamyslet nad tím, za jakým účelem homelab pořizuješ. Od tvých potřeb se budou odvíjet požadavky na hardware.
+Většina lidí kteří začínají s homelabem, chce např. prostor pro ukládání rúzných médií, nebo způsob jak si je moci prohlížet na domácích zařízeních. Jiní proto, že chtějí testovat nové věci pro práci. Nebo chtějí začít pracovat v IT a potřebují místo, kde se to všechno naučí.">
+<meta name="keywords" content="blog,sysadmin,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Výběr hardwaru pro homelab">
+  <meta name="twitter:description" content="Takže chceš si postavit homelab, ale kde vůbec začít?
+Měl by jsi se zamyslet nad tím, za jakým účelem homelab pořizuješ. Od tvých potřeb se budou odvíjet požadavky na hardware.
+Většina lidí kteří začínají s homelabem, chce např. prostor pro ukládání rúzných médií, nebo způsob jak si je moci prohlížet na domácích zařízeních. Jiní proto, že chtějí testovat nové věci pro práci. Nebo chtějí začít pracovat v IT a potřebují místo, kde se to všechno naučí.">
+
+<meta property="og:url" content="https://www.micinek.cz/cs/posts/03-vyber-hw/">
+  <meta property="og:site_name" content="Web Jana Kocourka">
+  <meta property="og:title" content="Výběr hardwaru pro homelab">
+  <meta property="og:description" content="Takže chceš si postavit homelab, ale kde vůbec začít?
+Měl by jsi se zamyslet nad tím, za jakým účelem homelab pořizuješ. Od tvých potřeb se budou odvíjet požadavky na hardware.
+Většina lidí kteří začínají s homelabem, chce např. prostor pro ukládání rúzných médií, nebo způsob jak si je moci prohlížet na domácích zařízeních. Jiní proto, že chtějí testovat nové věci pro práci. Nebo chtějí začít pracovat v IT a potřebují místo, kde se to všechno naučí.">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-06T06:00:00+02:00">
+    <meta property="article:modified_time" content="2024-12-06T06:00:00+02:00">
+
+
+
+
+<link rel="canonical" href="https://www.micinek.cz/cs/posts/03-vyber-hw/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.aa5ef26fa979d6793724ae2dbd71efa94fd16cb1c5c7db3b6651f21f9892a5fd.css" integrity="sha256-ql7yb6l51nk3JK4tvXHvqU/RbLHFx9s7ZlHyH5iSpf0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://www.micinek.cz/cs/">
+      Web Jana Kocourka
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/cs/about/">O mě</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/cs/posts/">Blog</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/en/">English</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.micinek.cz/cs/posts/03-vyber-hw/">
+              Výběr hardwaru pro homelab
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-12-06T06:00:00&#43;02:00">
+                prosince 6, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              Délka čtení: 5
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Takže chceš si postavit homelab, ale kde vůbec začít?</p>
+<p>Měl by jsi se zamyslet nad tím, za jakým účelem homelab pořizuješ. Od tvých potřeb se budou odvíjet požadavky na hardware.</p>
+<p>Většina lidí kteří začínají s homelabem, chce např. prostor pro ukládání rúzných médií, nebo způsob jak si je moci prohlížet na domácích zařízeních. Jiní proto, že chtějí testovat nové věci pro práci. Nebo chtějí začít pracovat v IT a potřebují místo, kde se to všechno naučí.</p>
+<h4 id="pojďme-si-projít-několik-témat-na-základě-kterých-učiníme-výběru-hardwaru">
+  Pojďme si projít několik témat, na základě kterých učiníme výběru hardwaru.
+  <a class="heading-link" href="#poj%c4%8fme-si-proj%c3%adt-n%c4%9bkolik-t%c3%a9mat-na-z%c3%a1klad%c4%9b-kter%c3%bdch-u%c4%8din%c3%adme-v%c3%bdb%c4%9bru-hardwaru">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<hr>
+<h3 id="mých-osm-pilířů-užitečného-homelabu-nebo-dokonce-i-firemní-infrastruktury">
+  Mých osm pilířů užitečného homelabu (nebo dokonce i firemní infrastruktury)
+  <a class="heading-link" href="#m%c3%bdch-osm-pil%c3%ad%c5%99%c5%af-u%c5%beite%c4%8dn%c3%a9ho-homelabu-nebo-dokonce-i-firemn%c3%ad-infrastruktury">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h3 id="spotřeba">
+  Spotřeba
+  <a class="heading-link" href="#spot%c5%99eba">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Mým hlavním zájmem v mém homelabu je momentálně SPOTŘEBA, komponenty jsem si vybíral se zaměřením na nízkou spotřebu.</li>
+</ul>
+<h3 id="rozšiřitelnost">
+  Rozšiřitelnost
+  <a class="heading-link" href="#roz%c5%a1i%c5%99itelnost">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>chceš velký &ldquo;vše v jednom&rdquo; server, který umí vše? Budeš potřebovat nějakou kvalitní základní desku, na kterou napasuješ všechny potřebné komponenty? CPU pro běžné PC mají omezený počet PCIe linek. Pokud chcete např. kombinovat v serveru dedikovanou grafickou kartu, RAID kartu a rychlejší síťovou kartu, budete muset zvolit adekvátní platformu.</li>
+</ul>
+<h3 id="výpočetní-výkon">
+  Výpočetní výkon
+  <a class="heading-link" href="#v%c3%bdpo%c4%8detn%c3%ad-v%c3%bdkon">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Plánuješ mít několik malých služeb, nebo provozovat celý firemní softwarový balík? Rozhodování jaké CPU může být složité. Menší počet jader s vysokou frekvencí nebo naopak více jader? Každá volba má své výhody pro různé případy.</li>
+</ul>
+<h3 id="úložiště">
+  Úložiště
+  <a class="heading-link" href="#%c3%balo%c5%bei%c5%a1t%c4%9b">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Potřebuješ hodně úložného prostoru? Chceš točivé disky pro skladování běžných dat nebo rychlé SSD / NVMe disky pro virtuální stroje či databze? Typ úložiště, RAID, softwarově definované úložiště, replikované úložiště. Toto je jedna z mnoha králičích děr v IT infrastruktuře.</li>
+</ul>
+<h3 id="formfactor">
+  FormFactor
+  <a class="heading-link" href="#formfactor">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Rozdíly mezi MiniPC a RACK serverem ve velikosti a kapacitě různých komponent. Je to v podstatě fantastický způsob, jak vyjádřit velikost, tvar a další specifikace, které určují, jak komponenta vypadá a zapadá do systému.</li>
+</ul>
+<h3 id="chlazení">
+  Chlazení
+  <a class="heading-link" href="#chlazen%c3%ad">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>na základě předchozích pilířů musí být tvůj homelab odpovídajícím způsobem chlazena, VELKÉ servery se spoustou pevných disků nebo obsahující GPU budou muset mít buď: Vysoký průtok vzduchu = hluk | chladné prostředí = klimatizace (nebo chladný suterén) | Nízkou spotřebu = menší vývin tepla (může to znamenat nižší výpočetní výkon)</li>
+</ul>
+<h3 id="síťová-infrastruktura">
+  Síťová infrastruktura
+  <a class="heading-link" href="#s%c3%ad%c5%a5ov%c3%a1-infrastruktura">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Plánujete provozovat skromný homelab s některými základními sítěmi nebo plánujete provozovat server pro úpravu videa s 10Gbitovou sítí? Možná cluster serverů s vysokorychlostním úložištěm na 100Gbitové síti? Networking obecně je další ze králičích nor, do kterých můžete spadnout a už z nich nevylézt. Já používám značky Mikrotik nebo Ubiquiti, které nabízí jak Routery, tak Switche i wifi které můžeme použít.</li>
+</ul>
+<h3 id="rozpočet">
+  Rozpočet
+  <a class="heading-link" href="#rozpo%c4%8det">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Dobře, pojďme si promluvit o skutečném slonovi v místnosti – o penězích! Životní míza tohoto digitálního hřiště, palivo, díky kterému naše domácí laboratoře hučí! Počáteční náklady na komponenty homelabu jsou jedna věc. Použité servery nebo komponenty dnes můžete koupit docela levně na bazoš nebo marketplace či aukro. Mějte však na paměti pilíř č. 1 POWER, který může snadno zvýšit provozní náklady o více než 1000,-Kč měsíčně.</li>
+</ul>
+<h1 id="heading">
+  
+  <a class="heading-link" href="#heading">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h3 id="pojďme-si-říci-pár-příkladů-funkcí-kterými-servery-mají-výhody-nad-běžnými-pc-">
+  Pojďme si říci pár příkladů funkcí kterými Servery mají výhody nad běžnými PC :
+  <a class="heading-link" href="#poj%c4%8fme-si-%c5%99%c3%adci-p%c3%a1r-p%c5%99%c3%adklad%c5%af-funkc%c3%ad-kter%c3%bdmi-servery-maj%c3%ad-v%c3%bdhody-nad-b%c4%9b%c5%ben%c3%bdmi-pc-">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Servery mají vestavěné nástroje pro vzdálenou správu na nízké úrovni ( IPMI,BMC, iLO, iDRAC )</li>
+<li>ECC Paměti ( Paměť s možností detekovat a opravit chyby v reálném čase, což minimalizuje riziko pádů systému. )</li>
+<li>Kapacita paměti nad 128GB</li>
+<li>Redundantní komponenty (zdroje napájení, ventilátory, pevné disky, paměťové moduly DIMM)</li>
+<li>Hot-swap komponenty ( zdroje, ventilátory )</li>
+<li>Vyšší počet PCIe linek ( desktop CPU cca 28, servery až 128) více PCIe slotů ( grafické karty, RAID karty, síťové karty, apod.)</li>
+<li>Podpora SAS disků ( rychlejší sestra od SATA sběrnice )</li>
+<li>Chlazení - servery mají vysokootáčkové ventilátory stavěné pro 24/7 provoz ( nevýhoda je hlučnost - tichý provoz není priorita v serverech )</li>
+<li>FormFaktor - servery se nabízí jak v Tower ( běžné PC ), tak i v RackMount které se používají v RACK skříních</li>
+</ul>
+<h1 id="heading-1">
+  
+  <a class="heading-link" href="#heading-1">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<h2 id="když-mluvíme-o-počítačovém-hardwaru-trh-se-obvykle-rozděluje-do-tří-kategorií-podle-velikosti-a-potřeb-cílové-skupiny">
+  Když mluvíme o <strong>počítačovém hardwaru</strong>, trh se obvykle rozděluje do tří kategorií podle velikosti a potřeb cílové skupiny:
+  <a class="heading-link" href="#kdy%c5%be-mluv%c3%adme-o-po%c4%8d%c3%adta%c4%8dov%c3%a9m-hardwaru-trh-se-obvykle-rozd%c4%9bluje-do-t%c5%99%c3%ad-kategori%c3%ad-podle-velikosti-a-pot%c5%99eb-c%c3%adlov%c3%a9-skupiny">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-enterprise-velké-podniky">
+  1. <strong>Enterprise</strong> (Velké podniky):
+  <a class="heading-link" href="#1-enterprise-velk%c3%a9-podniky">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Jde o organizace s komplexními potřebami IT infrastruktury.</li>
+<li>Důraz je kladen na <strong>škálovatelnost, spolehlivost a podporu</strong>.</li>
+<li>Typicky se jedná o hardware, jako jsou <strong>servery, úložné systémy, síťová infrastruktura a pracovní stanice</strong>, určený pro náročné pracovní zatížení a kritické operace.</li>
+</ul>
+<h3 id="2-smb-small-and-medium-sized-businesses">
+  2. <strong>SMB (Small and Medium-Sized Businesses)</strong>:
+  <a class="heading-link" href="#2-smb-small-and-medium-sized-businesses">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Tato kategorie zahrnuje <strong>malé a střední podniky</strong>.</li>
+<li>Jejich potřeby jsou více <strong>nákladově orientované</strong>, s důrazem na rovnováhu mezi výkonem a cenou.</li>
+<li>Hardware může zahrnovat středně výkonné servery, síťová zařízení, notebooky, stolní počítače nebo NAS (Network-Attached Storage) pro střední pracovní zatížení.</li>
+</ul>
+<h3 id="3-soho-small-officehome-office-nebo-domácí-uživatelé">
+  3. <strong>SOHO (Small Office/Home Office) nebo domácí uživatelé</strong>:
+  <a class="heading-link" href="#3-soho-small-officehome-office-nebo-dom%c3%a1c%c3%ad-u%c5%beivatel%c3%a9">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>Tato kategorie zahrnuje <strong>jednotlivce</strong> nebo <strong>velmi malé firmy</strong>, například domácí kanceláře.</li>
+<li>Zaměřuje se na <strong>spotřebitelský hardware</strong>, který nabízí základní funkce za nízkou cenu.</li>
+<li>Hardware zahrnuje osobní notebooky, stolní počítače, tiskárny, Wi-Fi routery a externí úložiště.</li>
+</ul>
+<h3 id="klíčové-rozdíly">
+  Klíčové rozdíly:
+  <a class="heading-link" href="#kl%c3%ad%c4%8dov%c3%a9-rozd%c3%adly">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li><strong>Enterprise</strong>: High-end řešení, robustní a určené pro velké operace.</li>
+<li><strong>SMB</strong>: Střední třída, nákladově efektivní, zaměřené na rostoucí podniky.</li>
+<li><strong>SOHO/domácí uživatelé</strong>: Základní, orientované na spotřebitele, s důrazem na jednoduchost a dostupnost.</li>
+</ul>
+<hr>
+<h3 id="pro-začínající-homelab-většinou-vyhledváme-bazarové-věci-ze-skupiny-soho-a-smb-je-to-ideální-poměr-mezi-cenou-a-výkonem">
+  Pro začínající homelab většinou vyhledváme bazarové věci, ze skupiny SOHO a SMB. Je to ideální poměr mezi cenou a výkonem.
+  <a class="heading-link" href="#pro-za%c4%8d%c3%adnaj%c3%adc%c3%ad-homelab-v%c4%9bt%c5%a1inou-vyhledv%c3%a1me-bazarov%c3%a9-v%c4%9bci-ze-skupiny-soho-a-smb-je-to-ide%c3%a1ln%c3%ad-pom%c4%9br-mezi-cenou-a-v%c3%bdkonem">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "micin-cz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Jan Kocourek 
+    ·
+    
+    Stránka používá <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

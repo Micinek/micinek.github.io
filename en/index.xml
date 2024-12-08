@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jan Kocourek`s website</title>
+    <link>https://www.micinek.cz/en/</link>
+    <description>Recent content on Jan Kocourek`s website</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 06 Dec 2024 06:00:00 +0200</lastBuildDate>
+    <atom:link href="https://www.micinek.cz/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yet another blog</title>
+      <link>https://www.micinek.cz/en/posts/01-yet-another-blog/</link>
+      <pubDate>Sat, 30 Nov 2024 06:00:00 +0200</pubDate>
+      <guid>https://www.micinek.cz/en/posts/01-yet-another-blog/</guid>
+      <description>&lt;h1 id=&#34;why-write-another-tech-blog&#34;&gt;&#xA;  Why write another tech blog?!&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#why-write-another-tech-blog&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been asking myself for about a year now, during which time I&amp;rsquo;ve created and deleted this blog several times because I thought I had nothing to say. All things said, videos made, tutorials written, problems solved.&lt;/p&gt;&#xA;&lt;p&gt;BUT&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;I think everyone has a different experience installing software, building hardware, and troubleshooting. We receive information and learn in diferent ways.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What is Homelab and why should you care?</title>
+      <link>https://www.micinek.cz/en/posts/02-what-is-homelab/</link>
+      <pubDate>Tue, 03 Dec 2024 06:00:00 +0200</pubDate>
+      <guid>https://www.micinek.cz/en/posts/02-what-is-homelab/</guid>
+      <description>&lt;h1 id=&#34;what-is-homelab-and-why-should-you-care&#34;&gt;&#xA;  What is homelab and why should you care?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#what-is-homelab-and-why-should-you-care&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Homelab is a place where IT enthusiasts and professionals can learn and experiment without having to risk damaging the production environment. It can be anything from a single older computer running a few services to a virtualization cluster of servers simulating corporate infrastructure.&lt;/p&gt;&#xA;&lt;p&gt;Homelab is a unique opportunity to acquire skills and practical experience in IT. And if you&amp;rsquo;re just starting out as an IT administrator, homelab can open the door to the world of technology in a way that&amp;rsquo;s affordable, flexible, and above all, safe.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chosing hardware for homelab</title>
+      <link>https://www.micinek.cz/en/posts/03-chosing-hw/</link>
+      <pubDate>Fri, 06 Dec 2024 06:00:00 +0200</pubDate>
+      <guid>https://www.micinek.cz/en/posts/03-chosing-hw/</guid>
+      <description>&lt;p&gt;So you want to build a homelab, but where do you even start?&lt;/p&gt;&#xA;&lt;p&gt;You should think about the purpose for which you are purchasing a homelab. Hardware requirements will depend on your needs.&lt;/p&gt;&#xA;&lt;p&gt;Most people who start with a homelab, want for example space for storing various media, or a way to view them on home devices. Others because they want to test new things for work. Or they want to start working in IT and need a place to learn it all.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://www.micinek.cz/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.micinek.cz/en/about/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;&#xA;  About me&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#about-me&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Among my main interests are IT technologies and their use in small and medium-sized enterprises&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;My goal is to help companies take care of their IT infrastructure, protect their data and improve the organization of processes. I have been working in the IT professional field since 2012, when I started working at CATHEDRAL Software as a 1st level support technician. I managed client endpoints and computer networks. Over time, I expanded my knowledge of data security and maintenance, server management, virtualization and monitoring.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

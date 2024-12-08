@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>
+  Co je to homelab a proč by tě to mělo zajímat? · Web Jana Kocourka
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Jan Kocourek">
+<meta name="description" content="
+  Co je to homelab a proč by tě to mělo zajímat?
+  
+    
+    Link to heading
+  
+
+Homelab je místo, kde se IT nadšenci i profíci mohou učit a experimentovat aniž by museli riskovat poškození produknčního prostředí. Může to být cokoli od jednoho staršího počítače, na kterém běží pár služeb, až po virtualizační cluster serverů simulujících firemní infrastrukturu.
+Homelab je jedinečná příležitost, jak si osvojit dovednosti a praktické zkušenosti v IT. A pokud teprve začínáš jako IT správce, homelab ti může otevřít dveře do světa technologií způsobem, který je dostupný, flexibilní a hlavně bezpečný.">
+<meta name="keywords" content="blog,sysadmin,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Co je to homelab a proč by tě to mělo zajímat?">
+  <meta name="twitter:description" content="Co je to homelab a proč by tě to mělo zajímat? Link to heading Homelab je místo, kde se IT nadšenci i profíci mohou učit a experimentovat aniž by museli riskovat poškození produknčního prostředí. Může to být cokoli od jednoho staršího počítače, na kterém běží pár služeb, až po virtualizační cluster serverů simulujících firemní infrastrukturu.
+Homelab je jedinečná příležitost, jak si osvojit dovednosti a praktické zkušenosti v IT. A pokud teprve začínáš jako IT správce, homelab ti může otevřít dveře do světa technologií způsobem, který je dostupný, flexibilní a hlavně bezpečný.">
+
+<meta property="og:url" content="https://www.micinek.cz/cs/posts/02-co-je-to-homelab/">
+  <meta property="og:site_name" content="Web Jana Kocourka">
+  <meta property="og:title" content="Co je to homelab a proč by tě to mělo zajímat?">
+  <meta property="og:description" content="Co je to homelab a proč by tě to mělo zajímat? Link to heading Homelab je místo, kde se IT nadšenci i profíci mohou učit a experimentovat aniž by museli riskovat poškození produknčního prostředí. Může to být cokoli od jednoho staršího počítače, na kterém běží pár služeb, až po virtualizační cluster serverů simulujících firemní infrastrukturu.
+Homelab je jedinečná příležitost, jak si osvojit dovednosti a praktické zkušenosti v IT. A pokud teprve začínáš jako IT správce, homelab ti může otevřít dveře do světa technologií způsobem, který je dostupný, flexibilní a hlavně bezpečný.">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-03T06:00:00+02:00">
+    <meta property="article:modified_time" content="2024-12-03T06:00:00+02:00">
+
+
+
+
+<link rel="canonical" href="https://www.micinek.cz/cs/posts/02-co-je-to-homelab/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.aa5ef26fa979d6793724ae2dbd71efa94fd16cb1c5c7db3b6651f21f9892a5fd.css" integrity="sha256-ql7yb6l51nk3JK4tvXHvqU/RbLHFx9s7ZlHyH5iSpf0=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://www.micinek.cz/cs/">
+      Web Jana Kocourka
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/cs/about/">O mě</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/cs/posts/">Blog</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="/en/">English</a>
+              </li>
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://www.micinek.cz/cs/posts/02-co-je-to-homelab/">
+              Co je to homelab a proč by tě to mělo zajímat?
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-12-03T06:00:00&#43;02:00">
+                prosince 3, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              Délka čtení: 2
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h1 id="co-je-to-homelab-a-proč-by-tě-to-mělo-zajímat">
+  Co je to homelab a proč by tě to mělo zajímat?
+  <a class="heading-link" href="#co-je-to-homelab-a-pro%c4%8d-by-t%c4%9b-to-m%c4%9blo-zaj%c3%admat">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Homelab je místo, kde se IT nadšenci i profíci mohou učit a experimentovat aniž by museli riskovat poškození produknčního prostředí. Může to být cokoli od jednoho staršího počítače, na kterém běží pár služeb, až po virtualizační cluster serverů simulujících firemní infrastrukturu.</p>
+<p>Homelab je jedinečná příležitost, jak si osvojit dovednosti a praktické zkušenosti v IT. A pokud teprve začínáš jako IT správce, homelab ti může otevřít dveře do světa technologií způsobem, který je dostupný, flexibilní a hlavně bezpečný.</p>
+<h2 id="proč-by-tě-měl-homelab-zajímat">
+  Proč by tě měl homelab zajímat?
+  <a class="heading-link" href="#pro%c4%8d-by-t%c4%9b-m%c4%9bl-homelab-zaj%c3%admat">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h4 id="získáš-praktické-zkušenosti">
+  Získáš praktické zkušenosti
+  <a class="heading-link" href="#z%c3%adsk%c3%a1%c5%a1-praktick%c3%a9-zku%c5%a1enosti">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Teorie je základ, ale v IT je klíčové umět věci skutečně nastavit, řešit problémy a udržovat v chodu. V homelabu si můžeš vyzkoušet správu operačních systémů, konfiguraci sítí, správu databází, implementaci bezpečnostních politik a mnoho dalšího.</li>
+</ul>
+<h4 id="bezpečné-prostředí-pro-chyby">
+  Bezpečné prostředí pro chyby
+  <a class="heading-link" href="#bezpe%c4%8dn%c3%a9-prost%c5%99ed%c3%ad-pro-chyby">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Každý IT profesionál dělá chyby – to je normální. Ale v reálném prostředí může chyba znamenat výpadek služby nebo dokonce ztrátu dat která může tvoji firmu stát desitky i stovky tisíc korun. V homelabu můžeš experimentovat a dělat chyby bez obav z následků.</li>
+</ul>
+<h4 id="připravíš-se-na-reálné-situace">
+  Připravíš se na reálné situace
+  <a class="heading-link" href="#p%c5%99iprav%c3%ad%c5%a1-se-na-re%c3%a1ln%c3%a9-situace">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Mnoho problémů, na které narazíš v homelabu, tě připraví na reálné výzvy. Ať už je to řešení problémů s připojením, optimalizace výkonu serveru nebo implementace nové služby, tvé zkušenosti budou přenositelné do skutečné práce.</li>
+</ul>
+<h4 id="učíš-se-novým-technologiím">
+  Učíš se novým technologiím
+  <a class="heading-link" href="#u%c4%8d%c3%ad%c5%a1-se-nov%c3%bdm-technologi%c3%adm">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Homelab ti umožní prozkoumávat nové technologie, které si možná nemůžeš dovolit nebo k nim nemáš přístup v práci. Chceš se naučit pracovat s virtualizací, jako je VMware nebo Proxmox? Zajímá tě Docker a Kubernetes? Homelab je tvé hřiště.</li>
+</ul>
+<h4 id="osobní-rozvoj-a-portfolio">
+  Osobní rozvoj a portfolio
+  <a class="heading-link" href="#osobn%c3%ad-rozvoj-a-portfolio">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Mnoho lidí začíná svou IT kariéru tím, že prezentuje projekty, které vytvořili ve svém homelabu. Můžeš ukázat svým budoucím zaměstnavatelům, že máš praktické zkušenosti a zájem o obor.</li>
+</ul>
+<h4 id="ekonomická-přístupnost">
+  Ekonomická přístupnost
+  <a class="heading-link" href="#ekonomick%c3%a1-p%c5%99%c3%adstupnost">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<ul>
+<li>Nemusíš mít drahé vybavení. Starší hardware, třeba vyřazený server nebo dokonce starší notebook, může být perfektní pro začátek. Mnoho softwaru je navíc dostupné zdarma nebo v testovacích verzích.</li>
+</ul>
+<h3 id="spolu-se-vydáme-na-cestu-kde-vybudujeme-homelab-postavíme-náš-první-server-zprovozníme-různé-služby-a-naučíme-se-praktiky-z-provozu-it-a-taky-zprovozníme-cluster-který-je-užitečný-pro-bezvýpadkový-provoz">
+  Spolu se vydáme na cestu, kde vybudujeme Homelab. Postavíme náš první server, zprovozníme různé služby a naučíme se praktiky z provozu IT. A taky zprovozníme cluster který je užitečný pro bezvýpadkový provoz.
+  <a class="heading-link" href="#spolu-se-vyd%c3%a1me-na-cestu-kde-vybudujeme-homelab-postav%c3%adme-n%c3%a1%c5%a1-prvn%c3%ad-server-zprovozn%c3%adme-r%c5%afzn%c3%a9-slu%c5%beby-a-nau%c4%8d%c3%adme-se-praktiky-z-provozu-it-a-taky-zprovozn%c3%adme-cluster-kter%c3%bd-je-u%c5%beite%c4%8dn%c3%bd-pro-bezv%c3%bdpadkov%c3%bd-provoz">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "micin-cz" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2024
+     Jan Kocourek 
+    ·
+    
+    Stránka používá <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
